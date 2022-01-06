@@ -3,7 +3,6 @@ import React from "react";
 export default function Header() {
   return (
     <header>
-      {/* <div className="profile"></div> */}
       <section>
         <h1 className="full-name">Vikram S. Negi</h1>
         <h2 className="job">Full-Stack Web Developer 👋</h2>

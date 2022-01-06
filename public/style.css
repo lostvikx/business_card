@@ -6,6 +6,7 @@
   --grey: #DCDCDC;
   --linkedin: #5093E2;
   --yellow: #F3BF99;
+  --footer-logo-color: #918E9B;
 }
 
 * {
@@ -13,7 +14,6 @@
   padding: 0;
   margin: 0;
   font-family: "Inter", sans-serif;
-  /* color: var(--white); */
 }
 
 p {
@@ -23,7 +23,6 @@ p {
 a {
   text-decoration: none;
   color: #fff;
-  /* text-align: center; */
 }
 
 ul {
@@ -61,6 +60,7 @@ ul {
   text-align: center;
   margin-top: 1.25rem;
   font-size: 2.25rem;
+  font-weight: 700;
 }
 
 .job {
@@ -69,6 +69,7 @@ ul {
   font-size: 1.1rem;
   margin: 0.7rem;
   font-weight: 400;
+  font-weight: 600;
 }
 
 .web-link {
@@ -77,6 +78,7 @@ ul {
   text-align: center;
   display: block;
   padding-top: 0.25rem;
+  font-weight: 600;
 }
 
 .two-btns {
@@ -99,6 +101,7 @@ ul {
   gap: 0.75rem;
   font-size: 1.1rem;
   text-align: center;
+  font-weight: 600;
 }
 
 .white-btn {
@@ -115,4 +118,52 @@ ul {
 
 .btn {
   flex: 1;
+}
+
+.main-content {
+  padding: 1em 2em;
+  padding-top: 3em;
+}
+
+.sub-title {
+  color: var(--off-white);
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+}
+
+.para {
+  margin-bottom: 2rem;
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+.social-links {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  /* gap: 2rem; */
+  /* background-color: #161619; */
+  padding: 1em 2em;
+}
+
+footer {
+  margin: 1rem 0;
+}
+
+.social-links > li {
+  font-size: 1.7rem;
+  flex: 1;
+  text-align: center;
+}
+
+.social-links > li > a {
+  color: var(--footer-logo-color);
+}
+
+hr {
+  color: #374151;
+  width: 70%;
+  margin: 0 auto;
 }

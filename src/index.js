@@ -11,7 +11,9 @@ const Main = () => {
       <Profile />
       <div className="container">
         <Header />
+        <hr />
         <Body />
+        <hr />
         <Footer />
       </div>
     </>
