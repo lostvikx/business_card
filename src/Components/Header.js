@@ -10,12 +10,12 @@ export default function Header() {
       </section>
       <section className="two-btns">
         <div className="btn">
-          <a href="#" className="cta-btn white-btn">
+          <a href="mailto:viknegi0@gmail.com" className="cta-btn white-btn">
             <ion-icon name="mail"></ion-icon> <span>Email</span>
           </a>
         </div>
         <div className="btn">
-          <a href="#" className="cta-btn blue-btn">
+          <a href="https://www.linkedin.com/in/vikram-singh-negi/" className="cta-btn blue-btn">
             <ion-icon name="logo-linkedin"></ion-icon> <span>LinkedIn</span>
           </a>
         </div>
