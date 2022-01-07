@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/business_card/static/js/main.aab11278.js",
+    "index.html": "/business_card/index.html",
+    "main.aab11278.js.map": "/business_card/static/js/main.aab11278.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.aab11278.js"
+  ]
+}
